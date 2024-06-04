@@ -33,4 +33,6 @@
 .container button{
     display: flex;  
     align-items: center; 
+    background: linear-gradient(#9418fd, #571094);
+    
 }
