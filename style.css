@@ -48,4 +48,5 @@
     position: relative;
     width: 500px;
     min-width: 500px;
+    min-height: 150px;
 }
