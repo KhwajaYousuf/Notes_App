@@ -8,4 +8,5 @@ createBtn.addEventListener("click", ()=>{
     inputBox.className = "input-box";
     inputBox.setAttribute("conteneditable", "true");
     img.src = "images/delete.png";
+    notesContainer.appendChild(inputBox).appendChild(img);
 })
