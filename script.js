@@ -7,4 +7,5 @@ createBtn.addEventListener("click", ()=>{
     let img = document.createElement("img");
     inputBox.className = "input-box";
     inputBox.setAttribute("conteneditable", "true");
+    img.src = "images/delete.png";
 })
