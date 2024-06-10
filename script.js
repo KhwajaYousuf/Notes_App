@@ -2,7 +2,7 @@ const notesContainer = document.querySelector(".notes-container")
 const createBtn = document.querySelector(".btn")
 let notes = document.querySelectorAll(".input-box");
 
-function updateStorage(params){
+function updateStorage(){
     localStorage.setItem("notes", notesContainer.innerHTML);
 }
 
