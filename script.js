@@ -3,7 +3,7 @@ const createBtn = document.querySelector(".btn")
 let notes = document.querySelectorAll(".input-box");
 
 function updateStorage(params){
-
+    localStorage.setItem("notes", notesContainer.innerHTML);
 }
 
 createBtn.addEventListener("click", ()=>{
