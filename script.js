@@ -24,7 +24,7 @@ notesContainer.addEventListener("click", function(e){
         notes = document.querySelectorAll(".input-box");
         notes.forEach(nt => {
             nt.onkeyup = function(){
-                
+                updateStorage();
             }
         })
     }
