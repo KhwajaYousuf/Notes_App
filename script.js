@@ -21,6 +21,6 @@ notesContainer.addEventListener("click", function(e){
         updateStorage();
     }
     else if(e.target.tagName === "p"){
-        
+        notes = document.querySelectorAll(".input-box");
     }
 })
